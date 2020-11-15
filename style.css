@@ -1,0 +1,27 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,31,1) 47%, rgba(0,212,255,1) 100%);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.img-container {
+    margin: 2em;
+}
+
+img {
+    width: 23em;
+    height: 30em;
+}
+
+.title {
+    width: 26.5em;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    border-bottom: 5px solid white;
+}
