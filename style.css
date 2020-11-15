@@ -5,23 +5,36 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    /*align-content: space-between;*/
     margin: 0 auto;
-}
-.img-container {
-    margin: 2em;
 }
 
 img {
     width: 23em;
     height: 30em;
+    margin: 1em 0;
+}
+
+.title-container {
+    text-align: center;
+    margin-bottom: 3em;
 }
 
 .title {
-    width: 26.5em;
-    margin: 0 auto;
     font-family: 'Inter', sans-serif;
     font-size: 30px;
     font-weight: 500;
     color: white;
     border-bottom: 5px solid white;
+}
+
+@media (max-width: 770px) {
+    .container {
+        display: block;
+    }
+    img {
+        display: block;
+        margin: 2em auto;
+    }
 }
